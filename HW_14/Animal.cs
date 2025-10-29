@@ -27,12 +27,18 @@ namespace HW_14
 
     public class Cat : Animal
     {
-        private string _name;
+        private string name;
 
         public override string Name
         {
-            get { return _name; }
-            set { _name = value; }
+            get 
+            { 
+                return name; 
+            }
+            set 
+            { 
+                name = value; 
+            }
         }
 
         public Cat() : base()
@@ -53,12 +59,18 @@ namespace HW_14
 
     public class Dog : Animal
     {
-        private string _name;
+        private string name;
 
         public override string Name
         {
-            get { return _name; }
-            set { _name = value; }
+            get 
+            { 
+                return name; 
+            }
+            set 
+            { 
+                name = value; 
+            }
         }
 
         public Dog() : base()
